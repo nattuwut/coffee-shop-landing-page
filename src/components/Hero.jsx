@@ -6,10 +6,12 @@ function Hero() {
             <div className="hero-content">
                 <h1>Fresh Coffee Every Morning</h1>
                 <p>Best coffee in town with fresh beans.</p>
-                <button>Order Now</button>
-                <button>View Menu</button>
+                <div className="hero-buttons">
+                    <button>Order Now</button>
+                    <button>View Menu</button>
+                </div>
             </div>
-            <img className="hero-image" src="" alt="" />
+            <div className="hero-image"></div>
 
         </section>
     )
