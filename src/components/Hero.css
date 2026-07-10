@@ -12,9 +12,34 @@
     gap: 1rem;
 }
 
+.hero-content h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.hero-content p {
+    color: #666;
+    line-height: 1.6;
+}
+
 .hero-buttons {
     display: flex;
     gap: 1rem;
+}
+
+.hero-buttons button {
+    background-color: #6f4607;
+    padding:  0.8rem 1.4rem;
+    border-radius: 5px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: transform  0.2s ease;
+}
+
+.hero-buttons button:hover {
+    transform: translateY(-2px);
 }
 
 .hero-image {
