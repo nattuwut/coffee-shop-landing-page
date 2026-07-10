@@ -14,5 +14,10 @@ ul {
 nav a {
     text-decoration: none;
     color: black;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#6f4607;
 }
 
