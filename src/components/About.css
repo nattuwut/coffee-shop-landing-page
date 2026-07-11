@@ -1,4 +1,4 @@
-.hero {
+.about {
     display: flex;
     gap: 2rem;
     padding: 6rem 10rem;
@@ -7,32 +7,27 @@
     min-height: 50vh;
 }
 
-
-
-.hero-content {
+.about-content {
     display: flex;
     flex-direction: column;
     gap: 1rem;
     max-width: 500px;
+    align-items: flex-start;
 }
 
-.hero-content h1 {
+.about-content h2 {
     font-size: 2.5rem;
     line-height: 1.2;
     margin: 0;
 }
 
-.hero-content p {
+.about-content p {
     color: #666;
     line-height: 1.6;
+
 }
 
-.hero-buttons {
-    display: flex;
-    gap: 1rem;
-}
-
-.hero-buttons button {
+.about-button {
     background-color: #6f4607;
     padding: 1rem 2rem;
     border-radius: 5px;
@@ -42,16 +37,16 @@
     transition: transform 0.2s ease;
 }
 
-.hero-buttons button:hover {
+.about-button:hover {
     transform: translateY(-2px);
 }
 
-.hero-image {
+.about-img {
     width: 350px;
     height: 350px;
-    object-fit: cover;
     flex-shrink: 0;
-    margin-right: 40rem;
+    margin-left: 40rem;
+    object-fit: cover;
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }

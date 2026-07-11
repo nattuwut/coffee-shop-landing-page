@@ -1,8 +1,10 @@
 import "./Hero.css";
+import coffeeImg from "../assets/Img/coffeImg.avif"
 
 function Hero() {
     return (
         <section className="hero">
+            
             <div className="hero-content">
                 <h1>Fresh Coffee Every Morning</h1>
                 <p>Best coffee in town with fresh beans.</p>
@@ -11,7 +13,7 @@ function Hero() {
                     <button>View Menu</button>
                 </div>
             </div>
-            <div className="hero-image"></div>
+            <img className="hero-image" src={coffeeImg} alt="Cup of coffee" />
 
         </section>
     )
