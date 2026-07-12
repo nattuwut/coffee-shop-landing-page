@@ -1,0 +1,70 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    min-height: 50vh;
+    padding: 6rem 10rem;
+}
+
+.menu h2 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.menu p {
+    color: #666;
+    line-height: 1.6;
+}
+
+
+
+.menu-container {
+    display: flex;
+    gap: 2.5rem;
+    text-align: center;
+
+}
+
+.menu-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+    background: white;
+    transition: transform 0.3s ease;
+}
+
+.menu-card img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.menu-card:hover {
+    transform: translateY(-6px);
+}
+
+.menu-card button {
+    background-color: #6f4607;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    color: #ffffff;
+    border: none;
+    align-self: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.menu-card button:hover {
+    transform: scale(1.05)
+}
+
+.menu-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #6f4607;
+}
