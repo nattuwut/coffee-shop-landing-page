@@ -4,7 +4,7 @@ import "./Navbar.css";
 function Navbar() {
     return (
     <nav>
-        <h1>Coffee House</h1>
+        <h1>☕ Coffee House</h1>
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
