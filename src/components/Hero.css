@@ -54,3 +54,22 @@
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
+@media (max-width:768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 3rem 1.5rem;
+        align-items: center;
+    }
+
+    .hero-content {
+        align-items: center;
+    }
+
+    .hero-image {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin-right: 0;
+    }
+}

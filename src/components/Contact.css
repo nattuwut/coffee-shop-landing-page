@@ -62,3 +62,14 @@
 .contact button:hover {
     transform: translateY(-2px);
 }
+
+@media (max-width:768px) {
+    .contact {
+        padding: 3rem 1.5rem;
+    }
+
+    .contact form {
+        width: 100%;
+        max-width: 350px;
+    }
+}

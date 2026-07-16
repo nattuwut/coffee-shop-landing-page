@@ -50,3 +50,23 @@
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
+
+@media (max-width:768px) {
+    .about {
+        flex-direction: column;
+        text-align: center;
+        padding: 3rem 1.5rem;
+        align-items: center;
+    }
+
+    .about-content {
+        align-items: center;
+    }
+
+    .about-img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin-left: 0;
+    }
+}

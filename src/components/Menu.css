@@ -69,3 +69,25 @@
     font-weight: bold;
     color: #6f4607;
 }
+
+@media (max-width:768px) {
+    .menu {
+        padding: 3rem 1.5rem;
+    }
+
+    .menu-card {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .menu-card img {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .menu-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

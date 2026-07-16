@@ -33,6 +33,19 @@
     transition: opacity 0.3s ease;
 }
 
-.footer a:hover{
+.footer a:hover {
     opacity: 0.8;
+}
+
+@media (max-width:768px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 3rem 1.5rem;
+    }
+
+    .footer-logo {
+        align-items: center;
+    }
+
 }
