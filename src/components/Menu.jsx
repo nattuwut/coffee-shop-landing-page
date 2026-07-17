@@ -4,7 +4,7 @@ import menuData from "../data/menuData"
 
 function Menu() {
     return (
-        <section className="menu">
+        <section id="menu" className="menu">
             <h2>Our Menu</h2>
             <p>Our most popular coffee</p>
             <div className="menu-container">
