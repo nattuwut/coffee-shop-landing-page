@@ -3,7 +3,7 @@ import "./Footer.css"
 
 function Footer() {
     return (
-        <footer className="footer">
+        <footer className="footer" data-aos="fade-up">
             <div className="footer-logo">
                 <h2>☕ Coffee House</h2>
                 <p>Fresh coffee, every morning.</p>

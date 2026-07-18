@@ -2,10 +2,10 @@ import "./Contact.css"
 
 function Contact() {
     return (
-        <section id="contact" className="contact">
+        <section id="contact" className="contact" data-aos="zoom-in" >
             <h2>Contact Us</h2>
             <p>Have questions? We'd love to hear from you.</p>
-            <form >
+            <form data-aos="zoom-in">
                 <label htmlFor="name">Name</label>
                 <input id="name" type="text" />
 

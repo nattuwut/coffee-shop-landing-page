@@ -5,10 +5,13 @@ function MenuCard({
     alt,
     name,
     description,
-    price
+    price,
+    delay
 }) {
     return (
-        <div className="menu-card">
+        <div className="menu-card"
+            data-aos="fade-up"
+            data-aos-delay={delay * 200}>
             <img src={src} alt={alt} />
             <h3>{name}</h3>
             <p>{description}</p>

@@ -3,9 +3,9 @@ import coffeeImg from "../assets/Img/coffeImg.avif"
 
 function Hero() {
     return (
-        <section id="hero" className="hero">
+        <section id="hero" className="hero" >
 
-            <div className="hero-content">
+            <div className="hero-content" data-aos="fade-right">
                 <h1>Fresh Coffee Every Morning</h1>
                 <p>Best coffee in town with fresh beans.</p>
                 <div className="hero-buttons">
@@ -17,7 +17,7 @@ function Hero() {
                     </a>
                 </div>
             </div>
-            <img className="hero-image" src={coffeeImg} alt="Cup of coffee" />
+            <img className="hero-image" data-aos="fade-left" src={coffeeImg} alt="Cup of coffee" />
 
         </section>
     )
